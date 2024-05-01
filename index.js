@@ -23,7 +23,7 @@ bot.on('messageCreate', (message) => {
 });
 
 bot.on('messageCreate', (message) => {
-    if (message.content.toLowerCase().includes('hey bot') || message.content.toLowerCase().includes('kirixen')) {
+    if (message.content.toLowerCase().includes('hey bot') || message.content.toLowerCase().includes('rogerrrrrrrr')) {
         message.channel.send('Hello there!');
     }
 });
@@ -33,5 +33,5 @@ bot.on('ready', () => {
 });
 
 bot.login('MTEyOTQyNDAwNDIzMTQ2NzE0OQ.GeEkEs.J84h3Gj9btuikrTGf0eZzlF4F37ViJILHbk62s').then(() => {
-    bot.user.setPresence({ activities: [{ name: 'ARCELIA', type: 'WATCHING' }], status: 'online' });
+    bot.user.setPresence({ activities: [{ name: 'Focus', type: 'WATCHING' }], status: 'dnd' });
 });
